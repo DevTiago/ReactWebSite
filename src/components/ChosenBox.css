@@ -1,0 +1,30 @@
+.chosen_box {
+  height: 280px;
+  min-width: 220px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out
+}
+
+.chosen_box img{
+    height: 80%;
+    width: 80%;
+    width: auto;
+    background-size: cover;
+}
+
+.chosen_box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.chosen_box h2 {
+    margin-top: 200px;
+    color: #fff;
+    font-size: calc(1.1rem + 1vw)
+}
+
+@media screen and (min-width: 1200px) {
+  .chosen_box h2 {
+     font-size: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.boxes {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;  
+}
+
+@media screen and (max-width: 987px) {
+    .boxes {
+        flex-wrap: wrap
+    }
+  }
+
